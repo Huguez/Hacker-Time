@@ -1,0 +1,327 @@
+/*
+Theme Name: Blog-Huguez
+Theme URI: www.ElBlogDelHuguez.com
+Description: este tema muestra un cierto grado de seriedad con temas totalmente al azar con el fin de practicar
+Version: 1
+Author: carlos Huguez
+Author URL: www.CarlosHuguez.com
+*/
+
+/*------estilos generales-----------*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: #080808; 
+	font-size: 12pt;
+	font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+/*
+dividir el tam elemento en px que quieres entre el elemento mayor por 100
+*/
+header, #main, footer{
+	width: 80%;
+	max-width: 940px;
+	margin: 0px auto;
+}
+
+header h1  a:hover{
+	text-decoration: none;
+}
+
+header h1{
+	font-family: "Raleway", Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 2.3rem;
+}
+
+a{
+	color: #003D00;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	width: 85%;
+}
+
+header #logo{
+	width: 40%;
+	float: left;
+}
+
+header #logo p {
+	font-family: "Raleway", Helvetica, Arial;
+	font-size: 14px;
+	font-weight: 100;
+	text-align: left;
+	color: white;
+}
+
+header #logo span {
+	text-align: center;
+	display: block;
+	position: relative;
+	font-family: "Raleway",Helvetica, Arial;
+	font-weight: 400;
+	margin-bottom: 15px;
+	margin-top: -18px;
+	left: 140px; 
+	color: white;
+}
+
+header nav{
+	width: 60%;
+	float: right;
+	padding: 10px 0px;
+	margin-top: 30px;
+}
+
+header nav ul {
+	float: right;
+}
+
+header nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+header nav ul li a {
+	font-family: "Raleway", Helvetica, Arial;
+	font-weight: 400;
+	font-size: 1.5rem;
+}
+
+header nav ul li a:hover {
+	color: #5B5B5B;
+}
+
+#main {
+	overflow: hidden;
+}
+/***********************************************inicio del slideshow*************************************************************/
+#main #slideshow{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+#main #slideshow .thumb {
+	width: 45%;
+	float: left;
+	margin-right: 3%; 
+}
+#main #slideshow article{
+	float: left;
+	font-family: "Raleway", Helvetica, Arial;
+	font-size: 1rem;
+	text-align: justify;
+	width: 45%;
+	color: white;
+}
+#main #slideshow article .extract{
+	text-indent: 30px;
+}
+#main #slideshow article h2{
+	font-family: "Raleway", Helvetica, Arial;
+	font-size: 2rem;
+	font-weight: 300;
+	text-align: left;
+}
+#main #slideshow article h2 a:hover{
+	color: #5B5B5B;
+}
+#main #slideshow .date{
+	font-family: "Raleway", Helvetica, Arial;
+	font-size: .8rem;
+	font-weight: 100;
+	margin-bottom: 10px;
+	color: #777777;
+}
+#main #slideshow .slidesjs-pagination li {
+	background: white;
+	width: 18px;
+	height: 18px;
+	margin-right: 10px;
+	display: inline-block;
+}
+#main #slideshow .slidesjs-pagination li a {
+	width: 18px;
+	height: 18px;
+	display: block;
+	font-size: 0px;
+}
+#main #slideshow .slidesjs-pagination li .active {
+	background: #7A7A7A;
+}
+/***********************************************fin del slideshow*************************************************************/
+/***********************************************inicio main*************************************************************/
+
+#main #articles-list{
+	clear: both;
+	width: 75%;
+	float: left;
+}
+
+#main #articles-list article{
+	margin-bottom: 40px;
+	margin-right: 4%;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #333333;
+	overflow: hidden;
+}
+
+#main #articles-list article .thumb{
+	width: 35%;
+	margin-right: 4%;
+	float: left;
+	margin-bottom: 2%;
+}
+
+#main #articles-list article h2 {
+	font-family: "Raleway", Helvetica, Arial;
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+
+#main #articles-list article h2 a{
+	color: #fff;
+}
+
+
+#main #articles-list article h2 a:hover{
+	color: #3D3D3D;
+	text-decoration: none;
+}
+
+#main #articles-list article .extract{
+	text-align: justify;
+	color: white;
+}
+
+#main #articles-list article .date{
+	font-size: .8rem;
+	color: #777777;
+	margin-bottom: 10px;
+
+}
+
+
+#main #articles-list #pagination {
+	margin-bottom: 40px;
+	width: 100%;
+	text-align: center;
+}
+
+#main #articles-list #pagination p a {
+	font-size: 1.5rem;
+	margin: 0px 20px;
+	font-family: "Raleway", Helvetica, Arial;
+	font-weight: 700;
+	display: inline-block;
+}
+
+#main #articles-list article .extract {
+	text-indent: 30px;
+}
+
+/***********************************************fin de main*************************************************************/
+/***********************************************inicio de aside*************************************************************/
+
+#main aside {
+	width: 25%;
+	float: left;
+}
+
+#main .widget{
+	width: 100%;
+}
+
+.widget {
+	margin-bottom: 100px;
+	display: block;
+	float: left;
+}
+
+.widget h3{
+	font-family: "Raleway", Helvetica, Arial;
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: #333333;
+	margin-bottom: 10px;
+}
+
+.widget ul li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.widget ul li a{
+	font-family: "Raleway", Helvetica, Arial;
+	font-size: .99rem;
+	color: #777777;
+}
+
+.widget ul li a:hover {
+	color: #003D00;
+	text-decoration: none;
+}
+/********************************************************************************/
+#comentario h3 {
+	color: #777777;
+	
+}
+
+/***********************************footer**************************************/
+
+footer{
+	width: 90%;
+}
+
+footer .widget {
+	width: 25%;
+}
+
+footer #copyright {
+	background: #000;
+	width: 71%;
+	text-align: center;
+	color: white;
+	clear: both;
+	margin-bottom: 20px;
+	padding: 4px;
+	font-family: "Raleway", Helvetica, Arial;
+}
+
+#ft_widget .widget {
+	display: block;
+}
+
+footer #ft_widget h3{
+	font-family: "Raleway", Helvetica, Arial;
+	font-size: 1.4rem;
+	font-weight: 300;
+}
+
+#main #articles-list #cat_name {
+	font-family: "Raleway", Helvetica, Arial;
+	font-size: 2rem;
+	color: #333333;
+	font-weight: 500;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #333333;
+	margin-right: 30px;
+	padding-bottom: 10px;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Hacker-Time</title>
+		<meta name="encoding" charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="author" content="carlos.huguez@gmail.com">
+		<meta name="application-name" content="implementacion de un blog personal">
+		<meta name="keywords" content="Blog, pagina personal, articulos, informatica, computo, desarrollo">
+		<meta name="description" content="Este es un blog personal en el que practica el como poder hacer una pagina web en su totalidad haciendo uso de como html, css.">
+		<link rel="shortcut icon" type="image/x-icon" href="http://4.bp.blogspot.com/_ymlILn01FV4/TJtgk8wfKmI/AAAAAAAAABg/75GYDggDUHw/s1600/H.jpg">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,100,700,500' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto:500,400italic,100,300,700,300italic,400' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<header>
+			<div id="logo">
+				<h1><a href="#">Hacker-Time</a></h1>
+				<span>
+					<p>by El Huguez</p>
+				</span>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#">Acerca De</a></li>
+					<li><a href="#">Referencias</a></li>
+					<li><a href="#">contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section id="main">
+			<section id="articles-list">
+				<h2 id="cat_name">AC/DC</h2>
+				<article>
+					<p class="date">30 de junio de 2015<a href="#"> categoria #1</a></p>
+					<p class="extract">AC/DC es un grupo de hard rock con alternaciones de blues rock, formado en Sídney, Australia, en 1973, por los hermanos de origen escocés, Malcolm y Angus Young.<br> Sus álbumes han sido vendidos en numerosos países, en un total estimado de 200 millones de copias,3 4 5 embarcándose en giras multitudinarias por todo el mundo, y sus éxitos han musicalizado varias producciones cinematográficas sobresalientes.6 7 8 9 Son famosas sus actuaciones en vivo, resultando vibrantes y exultantes espectáculos de primer orden.10 11 Mucho de ello se debe al extravagante estilo de su guitarrista principal y símbolo visual, Angus Young, quien asume el rol de agitador musical durante los conciertos, gracias a sus dinámicos y adrenalínicos despliegues escénicos uniformado de colegial callejero.12 13 Al comienzo, los circuitos de pubs australianos fueron testigo de los primeros meses de vida del proyecto, tiempos por los cuales sufrieron diversos cambios en su alineación.14 15 En 1974, la llegada del cantante Bon Scott, se convertiría en pieza clave del éxito del grupo. Su presencia en escena, junto a los hermanos Young, lo convirtió en uno de los personajes más carismáticos de la historia del rock.16 17 18 19 La formación se estabilizaría con Mark Evans (bajo) y Phil Rudd (batería).<br>
+					<img src="utileria/ACDC.jpg" title="AC/DC" width="670" >
+					<br>En 1976 incursionarían por primera vez fuera de las fronteras australianas con High Voltage y Dirty Deeds Done Dirt Cheap, discos minimalistas de básico rock, que ofrecían un contrapunto sonoro a las ampulosidades y la fastuosidad de las bandas que triunfaban en el mercado de la época.20 21 22 Ese mismo año se trasladaron al Reino Unido, de donde procedían los Young. Desembarcaron en pleno auge del punk rock, lo que contribuyó a que en poco tiempo obtuvieran una enorme aceptación del público, ocupando inmediatamente los primeros puestos en ventas con discos como Let There Be Rock (1977) y Powerage (1978).23 24 25 Durante su estadía en tierras inglesas, deciden introducir a Cliff Williams como nuevo bajista.<br>		La carrera triunfal del grupo, sustentada por la rudeza carismática de Scott, y la potencia rítmica del dominio guitarrero de los hermanos escoceses, proseguiría con el multimillonario e histórico Highway to Hell (1979), uno de los discos más emblemáticos de la historia del rock, y del que se vendieron millones de copias,26 27 28 que los catapultó hacia la fama en los EE. UU., y solidificó el estatus de superestrella internacional de la banda.29 30 La canción principal, «Highway to Hell», se acabaría convirtiendo en todo un himno del rock de finales de los '70.<br>		Cuando se encontraban en su mejor momento, tanto a nivel comercial como artístico, la desgracia se cruzó en sus caminos, cuando en febrero de 1980, el vocalista Bon Scott falleció por intoxicación etílica. 33 34 35 No obstante, y pese a que se encontraban al borde de la separación, el grupo depositó su destino en la voz de Brian Johnson, exvocalista del grupo Geordie.<br>		Brian Johnson y Angus Young, llevando a cabo el espectátuclo escénico de AC/DC, durante un concierto. Malcolm, el mayor de los Young, y mentor de la banda, durante su última gira (2010).<br>E statua en homenaje a Scott, voz original del grupo, en la ciudad de Fremantle.<br>Back in Black (1980), el disco homenaje al fallecimiento del mítico cantante original, y el cual a la postre se terminaría convirtiendo en el tercer álbum más vendido en la historia de la música, con más de 50 millones de unidades en el mundo, encajaría la figura de Johnson a la perfección en la imagen de AC/DC. El éxito de este trabajo disparó las ventas de todos los discos anteriores, desatando el fervor popular por la banda. Para mediados de 1981, todos los álbumes anteriores habían superado el millón de copias.</p>
+				</article>
+				<section id="comentario">
+					<h3>Comentarios</h3>
+					<div id="caja_comentario">
+						<form>
+							<br>
+						  <textarea name='comment' id='comment'>Escribe algo Hacker</textarea><br />
+
+						  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>'>
+
+							<input type='submit' value='Enviar'>  
+						</form>
+						<br>
+					</div>
+				</section>
+				<div id="pagination">
+					<p>
+						<a href="#"> <-- Anterior Post </a>
+						<a href="#"> Siguiente Post --> </a>
+					</p>
+				</div>
+			</section>
+			<aside>
+				<section class="widget">
+					<h3>widget</h3>
+					<ul>
+						<li><a href="#">algo 1</a></li>
+						<li><a href="#">algo 1</a></li>
+						<li><a href="#">algo 1</a></li>
+					</ul>
+				</section>
+				<section class="widget">
+					<h3>widget 2</h3>
+					<ul>
+						<li><a href="#">algo 1</a></li>
+						<li><a href="#">algo 1</a></li>
+						<li><a href="#">algo 1</a></li>
+						<li><a href="#">algo 1</a></li>
+					</ul>
+				</section>
+			</aside>
+		</section>
+		<footer>
+			<section id="ft_widget">
+				<div class="widget">
+					<h3>widget dentro de footer #3</h3>
+					<ul>
+						<li><a href="#">algo 1</a></li>
+						<li><a href="#">algo 1</a></li>
+						<li><a href="#">algo 1</a></li>
+						<li><a href="#">algo 1</a></li>
+					</ul>
+				</div>
+				<div class="widget">
+					<h3>widget dentro de footer #2</h3>
+					<ul>
+						<li><a href="#">algo 1</a></li>
+						<li><a href="#">algo 1</a></li>
+						<li><a href="#">algo 1</a></li>
+						<li><a href="#">algo 1</a></li>
+					</ul>
+				</div>
+				<div class="widget">
+					<h3>widget dentro de footer</h3>
+					<ul>
+						<li><a href="#">algo 1</a></li>
+						<li><a href="#">algo 1</a></li>
+						<li><a href="#">algo 1</a></li>
+						<li><a href="#">algo 1</a></li>
+					</ul>
+				</div>
+			</section>
+			<p id="copyright">Hacker-Time© 2015</p>
+		</footer>
+	</body>
+</html>

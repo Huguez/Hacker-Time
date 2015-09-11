@@ -1,0 +1,100 @@
+/*madida para tablets horizontal*/
+@media screen and (max-width: 1024px ){
+	header nav ul li a {
+		margin: 0px 5px 10px 0px;
+		background: #003D00;
+		padding: 5px;
+		color: #777777;
+	}
+	header nav ul li a:hover {
+		color: #fff; 
+	}
+
+	#main #no-slide {
+		display: none;
+	}
+
+	#main #articles-list #pagination a {
+		font-family: "Raleway", Arial, Helvetica, sans-serif;
+		font-weight: 100;
+		font-size: 1.3rem; 
+		margin: 5px 10px 5px 10px;
+		background: #003D00;
+		color: #777777;
+		padding: 9px;
+	}
+
+	footer .widget {
+		width: 25%;
+	}
+
+	.widget ul li {
+		border-bottom: 1px solid #777777;
+		padding: 5px 0px;
+	}
+}
+
+/*medida para tables en vertical*/
+@media screen and (max-width: 768px){
+	header #logo{
+		width: 100%;
+		background: #777777;
+	}
+
+	header #logo h1 {
+		font-family: "Raleway", Arial, Helvetica, sans-serif;
+		font-weight: 300;
+		text-align: center;
+	}
+	header #logo p {
+		text-align: center;
+	}
+
+	header #logo span{
+		text-align: center;
+		left: 110px;
+	}
+
+	header nav {
+		width: 100%;
+		float: left;
+		margin-top: 10px;
+	}
+
+	header nav ul {
+		float: left;
+	}
+
+	#main #articles-list {
+		width: 100%;
+	}
+
+	#main aside {
+		display: none;
+		clear: both;
+	}
+
+	.widget {
+		margin-right: 40px;
+		margin-bottom: 40px;
+		width: 100%;
+	}
+}
+
+/*medida de smartphone*/
+@media screen and (max-width: 485px ){
+	#main #articles-list article .thumb {
+		width: 100%;
+		float: left;
+		margin-bottom: 20px;
+	}
+
+	footer .widget{
+		width: 100%;
+	}
+
+	header nav ul li a{
+		font-size: 1rem;;
+	}
+}
+
